@@ -1,0 +1,39 @@
+#division1{
+    border: 10px solid black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip: content-box;
+    
+}
+#division2{
+    border: 10px dotted green;
+    background-color: yellow;
+    padding: 20px;
+    background-clip: content-box;
+    
+}
+#division3{
+    border: 10px dashed purple;
+    background-color: lightpink;
+    padding: 20px;
+    background-clip: padding-box;
+    
+}
+#division4{
+    height: 300px;
+    background-image: url('images/download%20(2).jpeg'), url('images/images.jpeg'),url('images/download (3).jpeg');
+    background-repeat:no-repeat;
+    background-size: 150px 150px,100 850,150 150;
+  
+    background-position: 0px 0px,200px 0px,500px 0px ;
+}
+#division5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
